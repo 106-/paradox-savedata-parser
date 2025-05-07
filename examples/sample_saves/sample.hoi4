@@ -1,0 +1,78 @@
+version="1.11.12"
+date="1936.1.1.12"
+HOI4txt=yes
+player="IRQ"
+multiplayer=no
+save_game_version={
+    first=1
+    second=11
+    third=12
+    forth=0
+}
+savegame_version={
+    first=1
+    second=11
+    third=0
+    forth=0
+}
+start_date="1936.1.1.12"
+date="1939.3.15.1"
+countries={
+    IRQ={
+        name="Iraq"
+        original_tag="IRQ"
+        tag="IRQ"
+        capital=291
+        starting_capital=291
+        politics={
+            ruling_party=neutrality
+            last_election="1936.1.1"
+            election_frequency=48
+            elections_allowed=no
+        }
+        history={
+            capital=291
+            set_politics={
+                ruling_party=neutrality
+                last_election="1936.1.1"
+                election_frequency=48
+                elections_allowed=no
+            }
+        }
+        resources={
+            oil=20
+        }
+        treasury=100.0
+        stability=0.65
+        manpower=12000
+    }
+    GER={
+        name="Germany"
+        original_tag="GER"
+        tag="GER"
+        capital=64
+        starting_capital=64
+        politics={
+            ruling_party=fascism
+            last_election="1936.1.1"
+            election_frequency=48
+            elections_allowed=no
+        }
+        history={
+            capital=64
+            set_politics={
+                ruling_party=fascism
+                last_election="1936.1.1"
+                election_frequency=48
+                elections_allowed=no
+            }
+        }
+        resources={
+            steel=80
+            aluminium=30
+        }
+        treasury=500.0
+        stability=0.85
+        manpower=250000
+    }
+}
